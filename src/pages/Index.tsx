@@ -46,7 +46,7 @@ const Index = () => {
           animate="visible"
           whileHover="hover"
         >
-            <Card className="bg-card border border-primary/50 shadow-lg shadow-[0_0_15px_hsl(var(--glow)/0.2)]">
+            <Card className="bg-card border-2 border-primary/30 glow-effect backdrop-blur-sm">
             <CardHeader>
               <CardTitle>Configuration Error</CardTitle>
               <CardDescription>
@@ -220,7 +220,7 @@ const Index = () => {
         whileHover="hover"
         className="w-full max-w-2xl"
       >
-        <Card className="bg-card border border-primary/50 shadow-lg shadow-[0_0_15px_hsl(var(--glow)/0.2)]">
+        <Card className="bg-card border-2 border-primary/30 glow-effect backdrop-blur-sm">
           <CardHeader>
             <CardTitle className="text-3xl">Image Browser Source</CardTitle>
             <CardDescription>
@@ -301,7 +301,7 @@ const Index = () => {
                 </p>
               </div>
 
-                <div className="flex items-center justify-between rounded-lg border border-primary/50 p-4 bg-muted">
+                <div className="flex items-center justify-between rounded-lg border-2 border-primary/30 p-4 bg-muted/50 backdrop-blur-sm transition-all duration-300 hover:border-primary/50">
                 <div className="space-y-0.5">
                   <Label htmlFor="reveal-switch" className="text-base">Reveal Image</Label>
                   <p className="text-sm text-muted-foreground">
@@ -323,7 +323,7 @@ const Index = () => {
                   whileHover="hover"
                 >
                   <Label>Image Preview</Label>
-                    <div className="mt-2 rounded-md border border-primary/50 aspect-video w-full flex items-center justify-center bg-muted overflow-hidden p-4 shadow-inner shadow-[0_0_15px_hsl(var(--glow)/0.2)]">
+                    <div className="mt-2 rounded-lg border-2 border-primary/30 aspect-video w-full flex items-center justify-center bg-muted/30 backdrop-blur-sm overflow-hidden p-4 transition-all duration-300 hover:border-primary/50">
                     <img
                       src={imageUrl}
                       alt="Preview"

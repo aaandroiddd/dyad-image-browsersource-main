@@ -61,7 +61,7 @@ const Source = () => {
           animate="visible"
           whileHover="hover"
         >
-          <Card className="bg-card border border-primary/50 shadow-lg shadow-[0_0_15px_hsl(var(--glow)/0.2)]">
+          <Card className="bg-card border-2 border-primary/30 glow-effect backdrop-blur-sm">
             <CardHeader>
               <CardTitle>Configuration Error</CardTitle>
               <CardDescription>
